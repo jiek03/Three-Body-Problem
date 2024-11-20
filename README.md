@@ -18,7 +18,7 @@ $$
 Simplifying the expression we can get:
 
 $$
-m_i\ddot{\vec{r}}  = -\frac{Gm_im_j}{r^ 3}\vec{r}.
+m_i\ddot{\vec{r}}  = -\frac{Gm_im_j}{|\vec{r}|^ 3}\vec{r}.
 $$
 
 Now, modelling the forces of the three gravitationally interacting bodies we can set the following system of equations:
@@ -41,4 +41,3 @@ $$
 \ddot{\vec{r_3}}  = -\frac{Gm_1}{|\vec{r_3}-\vec{r_1}|^ 3}\left(\vec{r_3}-\vec{r_1}\right)-\frac{Gm_2}{|\vec{r_3}-\vec{r_2}|^ 3}\left(\vec{r_3}-\vec{r_2}\right).
 $$
 
-Where:
